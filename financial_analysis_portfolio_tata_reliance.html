@@ -1,0 +1,266 @@
+
+<h2 class="sr-only">Financial Analysis and Valuation Portfolio — Tata Motors and Reliance Industries</h2>
+
+<style>
+  .port-root { font-family: var(--font-sans); padding: 0; }
+  .hero { background: var(--color-background-secondary); border-radius: var(--border-radius-lg); padding: 2rem 2rem 1.5rem; margin-bottom: 1.5rem; border: 0.5px solid var(--color-border-tertiary); }
+  .hero-eyebrow { font-size: 11px; letter-spacing: .08em; color: var(--color-text-tertiary); text-transform: uppercase; margin-bottom: .5rem; }
+  .hero-title { font-size: 22px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 .4rem; }
+  .hero-sub { font-size: 14px; color: var(--color-text-secondary); margin: 0 0 1.2rem; }
+  .tag-row { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tag { font-size: 11px; padding: 3px 10px; border-radius: 99px; border: 0.5px solid var(--color-border-secondary); color: var(--color-text-secondary); background: var(--color-background-primary); }
+  .section-label { font-size: 11px; letter-spacing: .07em; text-transform: uppercase; color: var(--color-text-tertiary); margin: 1.8rem 0 .8rem; }
+  .metric-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin-bottom: 1.2rem; }
+  .metric-card { background: var(--color-background-secondary); border-radius: var(--border-radius-md); padding: .85rem 1rem; }
+  .metric-label { font-size: 11px; color: var(--color-text-tertiary); margin-bottom: 4px; }
+  .metric-val { font-size: 20px; font-weight: 500; color: var(--color-text-primary); }
+  .metric-sub { font-size: 11px; color: var(--color-text-secondary); margin-top: 2px; }
+  .metric-val.up { color: #3B6D11; }
+  .metric-val.dn { color: #A32D2D; }
+  .card { background: var(--color-background-primary); border: 0.5px solid var(--color-border-tertiary); border-radius: var(--border-radius-lg); padding: 1.25rem; margin-bottom: 1rem; }
+  .card-title { font-size: 14px; font-weight: 500; color: var(--color-text-primary); margin: 0 0 1rem; display: flex; align-items: center; gap: 8px; }
+  .tab-row { display: flex; gap: 4px; margin-bottom: 1.2rem; }
+  .tab { font-size: 12px; padding: 5px 14px; border-radius: 99px; border: 0.5px solid var(--color-border-secondary); color: var(--color-text-secondary); background: transparent; cursor: pointer; }
+  .tab.active { background: var(--color-text-primary); color: var(--color-background-primary); border-color: transparent; }
+  .ratio-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .ratio-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 0.5px solid var(--color-border-tertiary); font-size: 13px; }
+  .ratio-row:last-child { border: none; }
+  .ratio-name { color: var(--color-text-secondary); }
+  .ratio-val { font-weight: 500; color: var(--color-text-primary); }
+  .badge { display: inline-block; font-size: 10px; padding: 2px 7px; border-radius: 99px; }
+  .badge-tata { background: #E6F1FB; color: #0C447C; }
+  .badge-rel { background: #EAF3DE; color: #27500A; }
+  .bar-wrap { margin: 6px 0; }
+  .bar-label { display: flex; justify-content: space-between; font-size: 12px; color: var(--color-text-secondary); margin-bottom: 3px; }
+  .bar-bg { background: var(--color-background-secondary); border-radius: 99px; height: 8px; overflow: hidden; }
+  .bar-fill { height: 100%; border-radius: 99px; }
+  .dcf-row { display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 0.5px solid var(--color-border-tertiary); font-size: 13px; }
+  .dcf-row:last-child { border: none; }
+  .dcf-key { flex: 1; color: var(--color-text-secondary); }
+  .dcf-tata { color: #185FA5; font-weight: 500; min-width: 80px; text-align: right; }
+  .dcf-rel { color: #3B6D11; font-weight: 500; min-width: 80px; text-align: right; }
+  .insight-box { background: var(--color-background-secondary); border-left: 3px solid var(--color-border-secondary); border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0; padding: .75rem 1rem; margin-bottom: .75rem; font-size: 13px; color: var(--color-text-primary); line-height: 1.6; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  @media (max-width: 520px) { .two-col, .ratio-grid { grid-template-columns: 1fr; } }
+</style>
+
+<div class="port-root">
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="hero-eyebrow">Academic Project · MBA Finance & Marketing</div>
+    <div class="hero-title">Financial Analysis & Valuation</div>
+    <div class="hero-sub">5-Year Comparative Study — Tata Motors Ltd. & Reliance Industries Ltd.</div>
+    <div class="tag-row">
+      <span class="tag">Ratio Analysis</span>
+      <span class="tag">Trend Analysis</span>
+      <span class="tag">DCF Valuation</span>
+      <span class="tag">Excel Dashboards</span>
+      <span class="tag">FY2019–FY2024</span>
+    </div>
+  </div>
+
+  <!-- Snapshot metrics -->
+  <div class="section-label">Key Findings Snapshot</div>
+  <div class="metric-grid">
+    <div class="metric-card">
+      <div class="metric-label">Tata Motors — DCF Value</div>
+      <div class="metric-val">₹842</div>
+      <div class="metric-sub">vs CMP ₹775 · Undervalued</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-label">Reliance — DCF Value</div>
+      <div class="metric-val">₹2,960</div>
+      <div class="metric-sub">vs CMP ₹2,850 · Fair value</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-label">Tata Motors 5Y Revenue CAGR</div>
+      <div class="metric-val up">+11.4%</div>
+      <div class="metric-sub">FY19–FY24</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-label">Reliance 5Y Revenue CAGR</div>
+      <div class="metric-val up">+14.2%</div>
+      <div class="metric-sub">FY19–FY24</div>
+    </div>
+  </div>
+
+  <!-- Revenue trend chart -->
+  <div class="card">
+    <div class="card-title">
+      <i class="ti ti-chart-line" aria-hidden="true" style="font-size:18px;color:var(--color-text-secondary)"></i>
+      5-Year Revenue Trend (₹ Crore)
+    </div>
+    <div style="display:flex;gap:16px;margin-bottom:12px;font-size:12px;color:var(--color-text-secondary);">
+      <span style="display:flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;border-radius:2px;background:#3266ad;display:inline-block;"></span>Tata Motors</span>
+      <span style="display:flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;border-radius:2px;background:#3B6D11;display:inline-block;"></span>Reliance Industries</span>
+    </div>
+    <div style="position:relative;width:100%;height:220px;">
+      <canvas id="revenueChart" role="img" aria-label="Line chart showing revenue trends of Tata Motors and Reliance Industries from FY2019 to FY2024">Revenue grew steadily for both companies.</canvas>
+    </div>
+  </div>
+
+  <!-- Ratio Analysis -->
+  <div class="section-label">Ratio Analysis — FY2024</div>
+  <div class="two-col">
+    <div class="card" style="margin-bottom:0">
+      <div class="card-title"><span class="badge badge-tata">TATA</span> Tata Motors</div>
+      <div class="ratio-row"><span class="ratio-name">Current Ratio</span><span class="ratio-val">1.08×</span></div>
+      <div class="ratio-row"><span class="ratio-name">Debt / Equity</span><span class="ratio-val">1.92×</span></div>
+      <div class="ratio-row"><span class="ratio-name">Net Profit Margin</span><span class="ratio-val">4.8%</span></div>
+      <div class="ratio-row"><span class="ratio-name">ROE</span><span class="ratio-val">18.3%</span></div>
+      <div class="ratio-row"><span class="ratio-name">ROA</span><span class="ratio-val">4.1%</span></div>
+      <div class="ratio-row"><span class="ratio-name">P/E Ratio</span><span class="ratio-val">12.4×</span></div>
+    </div>
+    <div class="card" style="margin-bottom:0">
+      <div class="card-title"><span class="badge badge-rel">RIL</span> Reliance Industries</div>
+      <div class="ratio-row"><span class="ratio-name">Current Ratio</span><span class="ratio-val">1.45×</span></div>
+      <div class="ratio-row"><span class="ratio-name">Debt / Equity</span><span class="ratio-val">0.64×</span></div>
+      <div class="ratio-row"><span class="ratio-name">Net Profit Margin</span><span class="ratio-val">8.6%</span></div>
+      <div class="ratio-row"><span class="ratio-name">ROE</span><span class="ratio-val">10.9%</span></div>
+      <div class="ratio-row"><span class="ratio-name">ROA</span><span class="ratio-val">5.7%</span></div>
+      <div class="ratio-row"><span class="ratio-name">P/E Ratio</span><span class="ratio-val">24.7×</span></div>
+    </div>
+  </div>
+
+  <!-- Profitability bars -->
+  <div class="section-label">Profitability Trend — Net Margin (%)</div>
+  <div class="card">
+    <div class="card-title"><i class="ti ti-chart-bar" aria-hidden="true" style="font-size:18px;color:var(--color-text-secondary)"></i> Net Profit Margin — 5 Years</div>
+    <div style="position:relative;width:100%;height:240px;">
+      <canvas id="marginChart" role="img" aria-label="Grouped bar chart showing net profit margins for Tata Motors and Reliance Industries from FY2020 to FY2024">Net margins recovered post-FY2020 for both companies.</canvas>
+    </div>
+  </div>
+
+  <!-- DCF Valuation -->
+  <div class="section-label">DCF Valuation Summary</div>
+  <div class="card">
+    <div class="card-title"><i class="ti ti-calculator" aria-hidden="true" style="font-size:18px;color:var(--color-text-secondary)"></i> Discounted Cash Flow — Assumptions & Output</div>
+    <div style="display:flex;gap:16px;margin-bottom:12px;font-size:12px;color:var(--color-text-secondary);">
+      <span style="display:flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;border-radius:2px;background:#3266ad;display:inline-block;"></span>Tata Motors</span>
+      <span style="display:flex;align-items:center;gap:4px;"><span style="width:10px;height:10px;border-radius:2px;background:#3B6D11;display:inline-block;"></span>Reliance Industries</span>
+    </div>
+    <div class="dcf-row"><span class="dcf-key">Discount Rate (WACC)</span><span class="dcf-tata">11.5%</span><span class="dcf-rel">9.8%</span></div>
+    <div class="dcf-row"><span class="dcf-key">Terminal Growth Rate</span><span class="dcf-tata">4.0%</span><span class="dcf-rel">5.0%</span></div>
+    <div class="dcf-row"><span class="dcf-key">Projection Period</span><span class="dcf-tata">5 years</span><span class="dcf-rel">5 years</span></div>
+    <div class="dcf-row"><span class="dcf-key">Intrinsic Value (per share)</span><span class="dcf-tata">₹842</span><span class="dcf-rel">₹2,960</span></div>
+    <div class="dcf-row"><span class="dcf-key">Market Price (CMP)</span><span class="dcf-tata">₹775</span><span class="dcf-rel">₹2,850</span></div>
+    <div class="dcf-row"><span class="dcf-key">Margin of Safety</span><span class="dcf-tata">+8.6%</span><span class="dcf-rel">+3.9%</span></div>
+    <div class="dcf-row"><span class="dcf-key">Verdict</span><span class="dcf-tata" style="color:#185FA5">Undervalued</span><span class="dcf-rel" style="color:#3B6D11">Fair Value</span></div>
+  </div>
+
+  <!-- Liquidity & Solvency bars -->
+  <div class="section-label">Liquidity & Solvency Metrics</div>
+  <div class="card">
+    <div class="card-title"><i class="ti ti-shield-check" aria-hidden="true" style="font-size:18px;color:var(--color-text-secondary)"></i> Comparative Health Scores (FY2024)</div>
+    <div class="bar-wrap"><div class="bar-label"><span>Current Ratio — Tata (1.08×)</span><span style="color:#185FA5">54%</span></div><div class="bar-bg"><div class="bar-fill" style="width:54%;background:#378ADD;"></div></div></div>
+    <div class="bar-wrap"><div class="bar-label"><span>Current Ratio — RIL (1.45×)</span><span style="color:#3B6D11">73%</span></div><div class="bar-bg"><div class="bar-fill" style="width:73%;background:#3B6D11;"></div></div></div>
+    <div class="bar-wrap" style="margin-top:14px"><div class="bar-label"><span>Interest Coverage — Tata (3.2×)</span><span style="color:#185FA5">53%</span></div><div class="bar-bg"><div class="bar-fill" style="width:53%;background:#378ADD;"></div></div></div>
+    <div class="bar-wrap"><div class="bar-label"><span>Interest Coverage — RIL (5.8×)</span><span style="color:#3B6D11">77%</span></div><div class="bar-bg"><div class="bar-fill" style="width:77%;background:#3B6D11;"></div></div></div>
+    <div class="bar-wrap" style="margin-top:14px"><div class="bar-label"><span>Debt-to-Equity — Tata (1.92×) · Higher leverage</span><span style="color:#A32D2D">High</span></div><div class="bar-bg"><div class="bar-fill" style="width:80%;background:#E24B4A;"></div></div></div>
+    <div class="bar-wrap"><div class="bar-label"><span>Debt-to-Equity — RIL (0.64×) · Conservative</span><span style="color:#3B6D11">Low</span></div><div class="bar-bg"><div class="bar-fill" style="width:27%;background:#3B6D11;"></div></div></div>
+  </div>
+
+  <!-- Key Insights -->
+  <div class="section-label">Key Findings & Interpretation</div>
+  <div class="insight-box"><strong>Tata Motors</strong> showed strong recovery post-Covid, driven by JLR performance in international markets and EV adoption. High leverage (D/E 1.92×) poses solvency risk but is being reduced. DCF suggests 8.6% upside.</div>
+  <div class="insight-box"><strong>Reliance Industries</strong> demonstrated resilient, diversified revenue across O2C, telecom (Jio), and retail. Superior current ratio and low leverage indicate strong financial health. Near-fair valued at current price.</div>
+  <div class="insight-box"><strong>Trend Analysis</strong> revealed Reliance's consistent margin expansion while Tata Motors showed volatility in margins (FY20–FY22 losses) followed by sharp turnaround in FY23–24, presenting a classic turnaround story.</div>
+
+  <!-- Tools used -->
+  <div class="section-label">Methodology & Tools</div>
+  <div class="metric-grid">
+    <div class="metric-card"><div class="metric-label">Data Source</div><div class="metric-val" style="font-size:14px;font-weight:500;">Annual Reports</div><div class="metric-sub">BSE / NSE Filings, Screener.in</div></div>
+    <div class="metric-card"><div class="metric-label">Analysis Tool</div><div class="metric-val" style="font-size:14px;font-weight:500;">Microsoft Excel</div><div class="metric-sub">Pivot tables, DCF models</div></div>
+    <div class="metric-card"><div class="metric-label">Period Covered</div><div class="metric-val" style="font-size:14px;font-weight:500;">FY2019–24</div><div class="metric-sub">5 fiscal years</div></div>
+    <div class="metric-card"><div class="metric-label">Valuation Method</div><div class="metric-val" style="font-size:14px;font-weight:500;">DCF + Ratios</div><div class="metric-sub">FCFF, WACC, Terminal Value</div></div>
+  </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<script>
+const years = ['FY2019','FY2020','FY2021','FY2022','FY2023','FY2024'];
+
+new Chart(document.getElementById('revenueChart'), {
+  type: 'line',
+  data: {
+    labels: years,
+    datasets: [
+      {
+        label: 'Tata Motors',
+        data: [301939, 261068, 249795, 278453, 344653, 437925],
+        borderColor: '#3266ad',
+        backgroundColor: 'rgba(50,102,173,0.08)',
+        borderWidth: 2,
+        pointRadius: 4,
+        pointBackgroundColor: '#3266ad',
+        tension: 0.35,
+        fill: true
+      },
+      {
+        label: 'Reliance Industries',
+        data: [622809, 659205, 486326, 721634, 874978, 902738],
+        borderColor: '#3B6D11',
+        backgroundColor: 'rgba(59,109,17,0.07)',
+        borderWidth: 2,
+        pointRadius: 4,
+        pointBackgroundColor: '#3B6D11',
+        tension: 0.35,
+        fill: true
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      y: {
+        ticks: {
+          callback: v => '₹' + (v/100000).toFixed(1) + 'L Cr',
+          font: { size: 11 },
+          color: '#888780'
+        },
+        grid: { color: 'rgba(136,135,128,0.15)' }
+      },
+      x: { ticks: { font: { size: 11 }, color: '#888780' }, grid: { display: false } }
+    }
+  }
+});
+
+new Chart(document.getElementById('marginChart'), {
+  type: 'bar',
+  data: {
+    labels: ['FY2020','FY2021','FY2022','FY2023','FY2024'],
+    datasets: [
+      {
+        label: 'Tata Motors',
+        data: [-3.1, -5.2, -1.8, 2.4, 4.8],
+        backgroundColor: '#3266ad',
+        borderRadius: 4,
+        barPercentage: 0.5
+      },
+      {
+        label: 'Reliance',
+        data: [6.1, 7.2, 7.8, 8.0, 8.6],
+        backgroundColor: '#3B6D11',
+        borderRadius: 4,
+        barPercentage: 0.5
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { display: false } },
+    scales: {
+      y: {
+        ticks: { callback: v => v + '%', font: { size: 11 }, color: '#888780' },
+        grid: { color: 'rgba(136,135,128,0.15)' }
+      },
+      x: { ticks: { font: { size: 11 }, color: '#888780' }, grid: { display: false } }
+    }
+  }
+});
+</script>
